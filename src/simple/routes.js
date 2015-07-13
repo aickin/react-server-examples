@@ -4,9 +4,14 @@ module.exports = {
 
 	routes: {
 		Simple: {
-			path: ['/'],
+			path: ['/simple'],
 			method: 'get',
 			page: "./SimplePage"
+		},
+		Ajax: {
+			path: ['/ajax'],
+			method: 'get',
+			page: "./AjaxPage"
 		},
 	}
 

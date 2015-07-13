@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+require("react-server-cli")("./target/simple/routes.js");
