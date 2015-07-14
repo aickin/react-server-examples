@@ -1,6 +1,6 @@
-var React = require("react");
+import React from "react";
 
-module.exports = class SimplePage {
+export default class SimplePage {
 	getTitle(next) { return "Simple"; }
 
 	getElements (next) {

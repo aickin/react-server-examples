@@ -1,7 +1,7 @@
-var React = require("react");
-var Link = require("react-server").Link;
+import React from "react";
+import { Link } from "react-server";
 
-module.exports = class IndexPage {
+export default class IndexPage {
 	getTitle(next) { return "Index"; }
 
 	getElements (next) {

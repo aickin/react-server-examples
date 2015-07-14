@@ -1,9 +1,9 @@
-const React = require("react");
-const loader = require("react-server").TritonAgent;
+import React from "react";
+import {TritonAgent as loader} from "react-server";
 
-module.exports = class AjaxPage {
+export default class AjaxPage {
 	getTitle(next) { return "Ajax"; }
-	
+
 	handleRoute (next) {
 		this.dataPromise = loader.get("http://echo.jsontest.com/name/Lara").asPromise() ;
 		return next();

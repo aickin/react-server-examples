@@ -1,4 +1,4 @@
-module.exports = class TitleMiddleware {
+export default class TitleMiddleware {
 
 	getTitle(next) {
 		// add our site name to the page title.
