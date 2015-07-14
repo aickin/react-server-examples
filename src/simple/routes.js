@@ -1,6 +1,6 @@
 module.exports = {
 
-	middleware: [],
+	middleware: ["./TitleMiddleware"],
 
 	routes: {
 		Simple: {

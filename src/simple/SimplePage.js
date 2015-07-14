@@ -1,6 +1,7 @@
 var React = require("react");
 
 module.exports = class SimplePage {
+	getTitle(next) { return "Simple"; }
 
 	getElements (next) {
 		return [

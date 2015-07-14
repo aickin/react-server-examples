@@ -2,6 +2,7 @@ var React = require("react");
 var Link = require("react-server").Link;
 
 module.exports = class IndexPage {
+	getTitle(next) { return "Index"; }
 
 	getElements (next) {
 		return [
