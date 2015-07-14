@@ -13,6 +13,11 @@ module.exports = {
 			method: 'get',
 			page: "./AjaxPage"
 		},
+		Index: {
+			path: ['/'],
+			method: 'get',
+			page: "./IndexPage"
+		},
 	}
 
 };
