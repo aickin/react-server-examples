@@ -18,6 +18,11 @@ module.exports = {
 			method: 'get',
 			page: "./IndexPage"
 		},
+		LargeStatic: {
+			path: ['/largestatic'],
+			method: 'get',
+			page: "./LargeStaticPage"
+		},
 	}
 
 };

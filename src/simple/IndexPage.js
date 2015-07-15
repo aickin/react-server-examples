@@ -18,6 +18,8 @@ export default class IndexPage {
 					JSON server and inserts into the text. Interestingly, the service sometimes returns within the 250ms
 					timeout and sometimes doesn't. As a result, the page sometimes has the data in the generated HTML, while
 					at other times the data comes down in a JavaScript call that's streamed down to the client.</li>
+					<li><Link path="/largestatic">Large Static Page</Link> - This page outputs a large amount (just shy
+					of 1MB) of text to show how react-server deals with large pages.</li>
 				</ul>
 			</FullWidthGrid>
 		];
