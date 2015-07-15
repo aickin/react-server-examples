@@ -1,11 +1,13 @@
 import React from "react";
+import FullWidthGrid from "./components/FullWidthGrid";
+import Button from "react-bootstrap/lib/Button";
 
 export default class SimplePage {
 	getTitle(next) { return "Simple"; }
 
 	getElements (next) {
 		return [
-			<HelloWorld/>
+			<FullWidthGrid><HelloWorld/></FullWidthGrid>
 		];
 	}
 
@@ -28,8 +30,8 @@ class HelloWorld extends React.Component {
 
 		return (
 			<div>
-				<div>Hello, World{exclamations}</div>
-				<button onClick={this.increment}>Get More Excited!</button>
+				<h2>Hello, World{exclamations}</h2>
+				<Button bsStyle='primary' onClick={this.increment}>Get More Excited!</Button>
 			</div>
 			);
 	}

@@ -1,5 +1,6 @@
 import React from "react";
 import {TritonAgent as loader} from "react-server";
+import FullWidthGrid from "./components/FullWidthGrid";
 
 export default class AjaxPage {
 	getTitle(next) { return "Ajax"; }
@@ -12,7 +13,11 @@ export default class AjaxPage {
 	getElements (next) {
 		return [
 			this.dataPromise.then((response) => {
-				return <div>Hello {response.body.name}!</div>
+				return (
+					<FullWidthGrid>
+						<h3>Hello <strong>{response.body.name}</strong>!</h3>
+					</FullWidthGrid> 
+				);
 			})
 		];
 	}

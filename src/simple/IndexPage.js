@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-server";
+import FullWidthGrid from "./components/FullWidthGrid";
 
 export default class IndexPage {
 	getTitle(next) { return "Index"; }
 
 	getElements (next) {
 		return [
-			<div>
+			<FullWidthGrid>
 				Welcome to the react-server examples. Here are a few examples to try out that demonstrate
 				server-side rendering.
 				<ul>
@@ -18,7 +19,7 @@ export default class IndexPage {
 					timeout and sometimes doesn't. As a result, the page sometimes has the data in the generated HTML, while
 					at other times the data comes down in a JavaScript call that's streamed down to the client.</li>
 				</ul>
-			</div>
+			</FullWidthGrid>
 		];
 	}
 
