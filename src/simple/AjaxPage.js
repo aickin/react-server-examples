@@ -3,13 +3,13 @@ import {TritonAgent as loader} from "react-server";
 import FullWidthGrid from "./components/FullWidthGrid";
 
 export default class AjaxPage {
-	getTitle(next) { return "Ajax"; }
-
 	handleRoute (next) {
 		this.dataPromise = loader.get("http://echo.jsontest.com/name/Lara").asPromise() ;
 		return next();
 	}
 	
+	getTitle(next) { return "Ajax"; }
+
 	getElements (next) {
 		return [
 			this.dataPromise.then((response) => {
