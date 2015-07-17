@@ -20,6 +20,8 @@ export default class IndexPage {
 					at other times the data comes down in a JavaScript call that's streamed down to the client.</li>
 					<li><Link path="/largestatic">Large Static Page</Link> - This page outputs a large amount (just shy
 					of 1MB) of text to show how react-server deals with large pages.</li>
+					<li><Link path="/css">CSS Page</Link> - This page demonstrates using require to include
+					CSS files.</li>
 				</ul>
 			</FullWidthGrid>
 		];

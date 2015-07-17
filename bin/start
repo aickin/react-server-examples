@@ -7,4 +7,8 @@ require("babel/register")({
 		"utility.inlineEnvironmentVariables",
 	],
 });
+require.extensions['.css'] = function(module, filename) {
+  return module._compile("", filename);
+};
+
 require("react-server-cli")("./src/simple/routes.js");

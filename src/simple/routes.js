@@ -23,6 +23,11 @@ module.exports = {
 			method: 'get',
 			page: "./LargeStaticPage"
 		},
+		Css: {
+			path: ["/css"],
+			method: "get",
+			page: "./CssPage"
+		}
 	}
 
 };
