@@ -27,6 +27,11 @@ module.exports = {
 			path: ["/css"],
 			method: "get",
 			page: "./CssPage"
+		},
+		ReduxCounter: {
+			path: ["/reduxcounter"],
+			method: "get",
+			page: "./ReduxCounterPage"
 		}
 	}
 

@@ -11,4 +11,4 @@ require.extensions['.css'] = function(module, filename) {
   return module._compile("", filename);
 };
 
-require("react-server-cli")("./src/simple/routes.js");
+require("react-server-cli")("./src/simple/todomvc/routes.js");

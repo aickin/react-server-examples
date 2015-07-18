@@ -22,6 +22,8 @@ export default class IndexPage {
 					of 1MB) of text to show how react-server deals with large pages.</li>
 					<li><Link path="/css">CSS Page</Link> - This page demonstrates using require to include
 					CSS files.</li>
+					<li><Link path="/reduxcounter">Redux Counter Example Page</Link> - This page uses the counter example 
+					from <a href="https://github.com/gaearon/redux">redux</a>, showing a minimal Flux flow in a react-server page.</li>
 				</ul>
 			</FullWidthGrid>
 		];
