@@ -1,8 +1,1 @@
-#!/usr/bin/env node
-
-require("babel/register")();
-require.extensions['.css'] = function(module, filename) {
-  return module._compile("", filename);
-};
-
-require("react-server-cli")("./routes.js");
+../../node_modules/react-server-cli/bin/react-server-cli
