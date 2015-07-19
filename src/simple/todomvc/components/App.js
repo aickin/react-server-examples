@@ -10,8 +10,6 @@ import { connect } from 'redux/react';
 
 const redux = createRedux(stores);
 
-// const todos = [{completed: true, text: "Taste JavaScript"}, {text: "Buy a unicorn"}, {text:"foo"}, {completed: true, text: "bar"}];
-
 export default class App extends React.Component {
 
 	render() {

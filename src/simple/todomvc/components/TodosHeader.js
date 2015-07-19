@@ -1,13 +1,12 @@
 import React from "react";
 import {createTodo} from "../actions/TodoActions";
-import { connect } from 'redux/react';
 
 export default class TodosHeader extends React.Component{
 	constructor() {
 		super();
 		this.state = {};
 	}
-	
+
 	render() {
 		const { text } = this.state;
 		return(
