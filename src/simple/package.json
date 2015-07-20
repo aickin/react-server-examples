@@ -1,0 +1,19 @@
+{
+  "name": "react-server-examples-simple",
+  "version": "1.0.0",
+  "description": "Some simple examples of react-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "^5.7.0",
+    "react": "0.13.3",
+    "react-bootstrap": "^0.23.7",
+    "react-server": "file:../../../react-server-code-drop",
+    "react-server-cli": "file:../../../react-server-cli",
+    "redux": "^0.12.0"
+  }
+}
