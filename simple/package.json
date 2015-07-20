@@ -12,8 +12,8 @@
     "babel-runtime": "^5.7.0",
     "react": "0.13.3",
     "react-bootstrap": "^0.23.7",
-    "react-server": "file:../../../react-server-code-drop",
-    "react-server-cli": "file:../../../react-server-cli",
+    "react-server": "file:../../react-server-code-drop",
+    "react-server-cli": "file:../../react-server-cli",
     "redux": "^0.12.0"
   }
 }
