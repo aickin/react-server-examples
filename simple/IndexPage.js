@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-server";
+import { Link } from "@aickin/react-server";
 import FullWidthGrid from "./components/FullWidthGrid";
 
 export default class IndexPage {

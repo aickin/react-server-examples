@@ -1,5 +1,5 @@
 import React from "react";
-import {TritonAgent as loader} from "react-server";
+import {TritonAgent as loader} from "@aickin/react-server";
 import FullWidthGrid from "./components/FullWidthGrid";
 
 export default class AjaxPage {

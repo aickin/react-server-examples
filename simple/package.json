@@ -4,16 +4,20 @@
   "description": "Some simple examples of react-server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./start"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@aickin/react-server": "0.0.0",
+    "@aickin/react-server-cli": "^0.1.0",
     "babel-runtime": "^5.7.0",
     "react": "0.13.3",
     "react-bootstrap": "^0.23.7",
-    "react-server": "file:../../react-server-code-drop",
-    "react-server-cli": "file:../../react-server-cli",
     "redux": "^0.12.0"
+  },
+  "engines": {
+    "node": "0.12.x"
   }
 }
