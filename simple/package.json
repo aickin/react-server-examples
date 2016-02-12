@@ -4,16 +4,18 @@
   "description": "Some simple examples of react-server",
   "main": "index.js",
   "scripts": {
+		"start": "./node_modules/react-server-cli/bin/react-server-cli",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "babel-runtime": "^5.7.0",
-    "react": "0.13.3",
-    "react-bootstrap": "^0.23.7",
-    "react-server": "file:../../react-server-code-drop",
-    "react-server-cli": "file:../../react-server-cli",
-    "redux": "^0.12.0"
+    "react": "0.14.2",
+    "react-bootstrap": "~0.23.7",
+		"react-dom": "0.14.2",
+    "react-server": "~0.0.1",
+    "react-server-cli": "~0.0.6",
+    "redux": "~0.12.0",
+		"superagent": "1.2.0"
   }
 }
