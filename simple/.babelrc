@@ -1,7 +1,4 @@
 {
-	"stage": 0, 
-	"optional": [
-		"runtime",
-		"utility.inlineEnvironmentVariables"
-	]
+	"presets": ["es2015", "react"],
+	"plugins": ["transform-runtime", "transform-inline-environment-variables"]
 }

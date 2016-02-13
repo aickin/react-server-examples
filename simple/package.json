@@ -4,18 +4,20 @@
   "description": "Some simple examples of react-server",
   "main": "index.js",
   "scripts": {
-		"start": "./node_modules/react-server-cli/bin/react-server-cli",
+    "start": "./node_modules/react-server-cli/bin/react-server-cli",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.5.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "react": "0.14.2",
     "react-bootstrap": "~0.23.7",
-		"react-dom": "0.14.2",
+    "react-dom": "0.14.2",
     "react-server": "~0.0.1",
     "react-server-cli": "~0.0.6",
     "redux": "~0.12.0",
-		"superagent": "1.2.0"
+    "superagent": "1.2.0"
   }
 }
