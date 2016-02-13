@@ -1,26 +1,19 @@
 # react-server-examples
 
-Some very simple example app for `aickin/react-server-code-drop`. You will need `aickin/react-server-cli` as well. Building this app is a bit tedious because none of the packages are in npm, so to install this app:
+Some very simple example apps for `redfin/react-server`, which use `react-server-cli` to compile the code and run the server.
+
+## Installation
 
 ```
-git clone https://github.com/aickin/react-server-code-drop.git
-cd react-server-code-drop
-npm install
-cd ..
-
-git clone https://github.com/aickin/react-server-cli.git
-cd react-server-cli
-npm install
-cd ..
-
 git clone https://github.com/aickin/react-server-examples.git
 cd react-server-examples/simple
 npm install
 cd ../todomvc
 npm install
+cd ../helloworld
+npm install
 ```
 
-Then to run the apps, `cd` to their directory (either `simple` or `todomvc`) and type `./start`.
+Then to run the apps, `cd` to their directory (`simple`, `todomvc`, or `helloworld`) and type `npm start`.
 
-Then go to http://localhost:3000/ . You will see a simple page that pre-renders and that is interactive on load. If you want to optimize the client code at the expense of startup time, add `--production`.
-
+Then go to http://localhost:3000/ . You will see a simple page that pre-renders and that is interactive on load. If you want to optimize the client code at the expense of startup time, type `npm start -- --production`. You can also use any of [the arguments for react-server-cli](https://github.com/aickin/react-server-cli#setting-options-manually).
