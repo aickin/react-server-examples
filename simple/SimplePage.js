@@ -23,18 +23,13 @@ class HelloWorld extends React.Component {
 	}
 
 	render() {
-		let exclamations = "";
-		for (let i = 0; i < this.state.exclamationCount; i++) {
-			exclamations += "!";
-		}
-
 		return (
 			<div>
-				<h2>Hello, World{exclamations}</h2>
+				<h2>Hello, World{"!".repeat(this.state.exclamationCount)}</h2>
 				<Button bsStyle='primary' onClick={this.increment}>Get More Excited!</Button>
 			</div>
 			);
 	}
 
-	
+
 }
